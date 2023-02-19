@@ -1,0 +1,665 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: RGB(251, 251, 252);
+    width: 100%;
+    height: 100%;
+}
+.section{
+    width: 100%;
+   
+}
+nav{
+    width: 100%;
+    height: 80px;
+   position: fixed;
+    display: flex;
+    background-color: white;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+    z-index: 1;
+    font-family: 'Inter';
+}
+.logo img{
+    height: 40px;
+    width: 240px;
+    margin-top:20px ;
+    margin-left: 10px;
+}
+.phonenumber{
+    display: flex;
+
+}
+
+.phonenumber p,span:hover{
+  background-size: 40% .1em;
+  background-position: 10% 100%, 90% 100%;
+}
+.phonenumber img{
+    width: 30px;
+    height: 30px;
+    margin-top:30px ;
+    margin-left: 20px;
+}
+.phonenumber p,span{
+    font-size: 17px;
+    font-weight: bold;
+
+      --c:linear-gradient(#000 0 0); /* update the color here */
+  
+  padding-bottom: .15em;
+  background: var(--c), var(--c);
+  background-size: .3em .1em;
+  background-position:50% 100%;
+  background-repeat: no-repeat;
+  transition: .3s linear, background-size .3s .2s linear;
+    
+}
+
+.phonenumber p{
+    padding-top: 30px;
+    padding-left: 15px;
+   
+}
+.phonenumber span{
+    color: red;
+}
+              /* menu */
+.menu{
+    width: 60%;
+    height: 100%;
+  padding-left: 100px;
+    display: flex;
+    
+    
+}
+.menu .dropdown a{
+    
+  color:#002D73;
+  text-decoration: none;
+
+  background:
+    linear-gradient(
+      to right,
+      rgba(100, 200, 200, 1),
+      rgba(100, 200, 200, 1)
+    ),
+    
+    linear-gradient(
+      to right,
+      
+      /* rgba(255, 0, 0, 1), */
+      blue,
+      rgba(0, 100, 200, 1)
+  );
+  background-size: 100% 3px, 0 3px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+
+}
+.menu .dropdown a:hover{
+     background-size: 0 3px, 100% 3px
+}
+.dropdown{
+    padding: 25px;
+    color: blue;
+   
+    font-size: 20px;
+    cursor: pointer;
+    
+    
+}
+.text{
+    text-decoration: none;
+    color: black;
+    
+}
+.dropdown-menu{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    background-color: rgba(46, 138, 138, 1); 
+    color: rgba(46, 138, 138, 1);
+    display: flex;
+}
+.right .left{
+    height: 50%;
+    width: 50%;
+}
+.banner{
+    width: 100%;
+    height: 400px;
+    padding-top:25px ;
+    
+}
+.banner img{
+    width: 100%;
+    height: 400px;
+    
+}
+.container{
+    width: 100%;
+    height: 130px;
+    
+    margin-top: 30px;
+    display: flex;
+    
+    gap: 10px;
+}
+
+.box{
+    width: 100px;
+    height: 110px;
+    color: white;
+  
+    margin-top: 15px;
+}
+.mini a img:hover{
+    width: 75px;
+    height: 75px;
+    transition: .3s;
+}
+.mini{
+    width: 100%;
+    height: 60%;
+    padding-left:20px ;
+    padding-top: 0px;
+  
+
+}
+.mini a img{
+    width: 70px;
+    height: 70px;
+}
+.mini_title{
+    width: 100%;
+    height: 40%;
+    color: black;
+    text-align: center;
+    font-size: 13px;
+    padding-top: 5px;
+}
+.cards{
+    
+    width: 925px;
+    height: 262px;
+    margin: auto;
+    position: relative;
+    top: 50px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display: flex;
+
+}
+.left_card{
+    height: 100%;
+    width: 50%;
+    
+}
+.upsite{
+    width: 100%;
+    height: 70%;
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    border-radius: 5px;
+    
+}
+.red{
+    color: brown;
+    font-size: 15px;
+    font-weight: bold;
+}
+.blued{
+    color: blue;
+    font-size: 15px;
+    font-weight: bold;
+}
+.gray{
+    color: gray;
+    font-size: 15px;
+    font-weight: bold;
+}
+.downsite{
+    width: 100%;
+    height: 30%;
+  padding-left: 130px;
+    display: flex;
+    align-items: center;
+    
+}
+ 
+.boy .minicontent .txt{
+    text-align: center;
+
+}
+
+.right_card{
+    height: 100%;
+    width: 50%;
+}
+.cards .right_card img{
+   height: 260px;
+   width: 462px;
+}
+.section{
+    padding-left: 20px;
+}
+h3{
+    margin-left: 80px;
+   color: #002D73;
+}
+.main{
+    width: 1111px;
+    height: 310px;
+    margin-left: 80px;
+    border-top: 5px black;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.boy{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.minicontent{
+    height: 100%;
+    width: 31.5%;
+  
+}
+.img{
+    height: 70%;
+    width: 100%;
+  
+
+}
+.img img{
+    height: 195px;
+    width: 350px;
+}
+.txt{
+    width: 100%;
+    height: 30%;
+    color: #4A4A4A;
+    
+}
+.mini_title{
+    color: #002D73;
+    font-family: 'Secular One';
+}
+.redbanner{
+    height: 143px;
+    width: 1111px;
+    margin-left: 80px;
+    background-color: #B21E28;
+    display: flex;
+    
+}
+.ls{
+    height: 100%;
+    width: 50%;
+    padding-left: 144px;
+    padding-top:35px;
+    font-size: 19px;
+    font-weight: bold;
+    color: #F8F9FC;
+}
+.rs{
+    height: 100%;
+    width: 50%;
+    padding-right: 144px;
+    padding-top:35px;
+    color: #F8F9FC;
+    float: right;
+    font-size: 19px;
+    font-weight: bold;
+}
+.redbanner .rs img{
+    width: 30px;
+    height: 30px;
+}
+.pattern{
+
+    height: 340px;
+    width: 100%%;
+    padding-left: 144px;
+    
+    padding-top: 30px;
+    margin-top: 30px;
+    background-color: #F6F6F7;
+    display: flex;
+
+}
+.pattern p{
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    
+}
+.patternmini{
+    width: 220px;
+    height: 320px;
+    padding-top: 40px;
+    gap: 10px;
+    margin-top: 30px;
+}
+.hori{
+    height: 5px;
+    width: 1262px;
+    display: flex;
+    margin-top: 50px;
+}
+.blue{
+    width: 70%;
+    height: 100%;
+    background-color: #002D73;
+}
+.reds{
+    width: 30%;
+    height: 100%;
+    background-color: #B21E28;
+}
+.address{
+ 
+    width: 100%;
+    height: 450px;
+    background-color: #627380;
+    color: #FAFAF5;
+    padding: 100px;
+    display: flex;
+    gap: 29px;
+
+}
+.add{
+    height: 100%;
+    width: 250px;
+    font-family: 'Inter';
+   
+}
+.address .add .tc ul a{
+  
+    text-decoration: none;
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    color:black;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+
+}
+.address .add .tc ul{
+    padding-top: 10px;
+}
+.address .add .tc ul a:hover{
+    box-shadow: inset 200px 0 0 0 #54b3d6;
+    color: white
+
+}
+
+.address .add .mt{
+    color: white ;
+    font-weight: bold;
+    padding-left: 35px;
+
+}
+
+/* End Homepage */
+                        /* second page */
+.icon{
+    margin-top: 90px;
+    width: 100%;
+    height: 180px;
+    
+    align-items: center;
+    padding-top:10px;
+    padding-left: 450px;
+    display: flex;
+    gap: 20px;
+}
+
+
+/* popup */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* The popup chat - hidden by default */
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/send button */
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+.content{
+    width: 100%;
+    height: 420px;
+    /* padding-left: 90px; */
+}
+.main_content{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.content .main_content .photo {
+    padding-left: 20px;
+    width: 40%;
+    height: 300px;
+ 
+
+}
+.content .main_content .texts{
+    width:50% ;
+    height: 300px;
+    padding-right: 20px;
+ 
+}
+.content .main_content .photo img{
+    height: 300px;
+    width: 500px;
+}
+footer .queen{
+    margin-top: 500px;
+}
+.mouse{
+    margin-top: 500px;
+}
+
+    /* Page3 */
+    .healthTip{
+        padding-left: 70px;
+
+        width: 100%;
+        height: 350px;
+       
+        display: flex;
+        gap: 20px;
+
+
+        /* From https://css.glass */
+/* background: rgba(255, 255, 255, 0.2); */
+background-color: red;
+
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+
+    }
+ 
+.a-box {
+    display: inline-block;
+    width: 240px;
+    text-align: center;
+  }
+  
+  .img-container {
+      height: 230px;
+      width: 200px;
+      overflow: hidden;
+      border-radius: 0px 0px 20px 20px;
+      display: inline-block;
+  }
+  
+  .img-container img {
+      transform: skew(0deg, -13deg);
+      height: 250px;
+      margin: -35px 0px 0px -70px;
+  }
+  
+  .inner-skew {
+      display: inline-block;
+      border-radius: 20px;
+      overflow: hidden;
+      padding: 0px;
+      transform: skew(0deg, 13deg);
+      font-size: 0px;
+      margin: 30px 0px 0px 0px;
+      background: #c8c2c2;
+      height: 250px;
+      width: 200px;
+  }
+  
+  .text-container {
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+    padding: 120px 20px 20px 20px;
+    border-radius: 20px;
+    background: #fff;
+    margin: -120px 0px 0px 0px;
+    line-height: 19px;
+    font-size: 14px;
+  }
+  
+  .text-container h3 {
+    margin: 20px 0px 10px 0px;
+    color: #04bcff;
+    font-size: 18px;
+  }
+
+
+
+  .redbox{
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 80px;
+    width: 100%;
+    height: 300px;
+    background-color: #B21E28;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    position: relative;
+  }  
+  .redbox .pic img{
+    position: absolute;
+    width: 300px;
+    height: 390px;
+    top: -90px;
+    right: 20px;
+
+  }
+  .plane{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    margin-left: 200px;
+    width: 960px;
+    height: 320px;
+    display: flex;
+    justify-content: space-between;
+  }
+.plane .text{
+    width: 48%;
+    height: 100%;
+    padding: 50px;
+  
+}
+.plane .pic{
+    width: 50%;
+    height: 100%;
+    
+}
+.plane .pic img{
+    height: 319px;
+    width: 479px;
+}
+.cont{
+    margin-left: 40px;
+    height: 100px;
+    width: 1200;
+    display: flex;
+    
+}
+.txt1{
+    padding: 10px;
+}
+.longpic img{
+    position: absolute;
+    top:850px;
+    left: 80px;
+   margin-left: 50px
+
+    width: ;
+    
+}
